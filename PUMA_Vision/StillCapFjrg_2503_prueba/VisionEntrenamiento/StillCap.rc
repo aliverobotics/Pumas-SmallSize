@@ -1,0 +1,406 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\StillCap.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\StillCap.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Capture & Processing Vision System 1.0 (Beta)"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "Capture & Processing Vision System",IDC_STATIC,40,10,
+                    119,8,SS_NOPREFIX
+    LTEXT           "Copyright (c) 2004-2005 UNAM Laboratorio de BioRobótica",
+                    IDC_STATIC,40,25,188,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Programmers:\nRodríguez G. Fco Javier\nCortes P. David",
+                    IDC_STATIC,39,39,179,29
+END
+
+IDD_STILLCAP_DIALOG DIALOGEX 0, 0, 750, 473
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Sistema de Visión y Procesamiento 1.2 (Cam2 720x480)"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "Por área",IDC_RADIO_AREA,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,199,342,43,10
+    CONTROL         "Por dimensión",IDC_RADIO_DIM,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,199,379,60,10
+    DEFPUSHBUTTON   "&Inicio",IDC_SNAP,513,295,65,20
+    CTEXT           "<None>",IDC_CAPOBJ,41,112,59,17
+    CONTROL         "",IDC_PREVIEW,"Static",SS_BLACKRECT | WS_DISABLED,21,22,
+                    109,81
+    CONTROL         "",IDC_STILL,"Static",SS_BLACKRECT,160,18,200,150
+    CTEXT           "Status:",IDC_STATIC,45,134,51,8
+    CTEXT           "<No capture hardware>",IDC_STATUS,35,144,74,8
+    GROUPBOX        "Imágen original",IDC_STATIC,15,7,123,175
+    CONTROL         "Slider1",IDC_SLIDER_BRIGHT,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_ENABLESELRANGE | WS_DISABLED | 
+                    WS_TABSTOP,592,24,121,14
+    LTEXT           "&Brillo",IDC_STATIC,642,16,16,8
+    CONTROL         "Slider1",IDC_SLIDER1_CONTRAST,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_ENABLESELRANGE | WS_DISABLED | 
+                    WS_TABSTOP,590,48,122,14
+    LTEXT           "&Contraste",IDC_STATIC,634,40,31,8
+    CONTROL         "Slider1",IDC_SLIDER_SAT,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_ENABLESELRANGE | WS_DISABLED | 
+                    WS_TABSTOP,592,75,120,14
+    LTEXT           "&Saturación",IDC_STATIC,632,64,35,8
+    PUSHBUTTON      "&Procesar",IDC_BUTTON_PROCESS,513,319,65,19,BS_CENTER | 
+                    BS_VCENTER
+    GROUPBOX        "Preprocesamiento",IDC_STATIC,151,7,433,277
+    GROUPBOX        "Segmentación",IDC_STATIC,13,290,170,161
+    GROUPBOX        "Distancia",IDC_STATIC,187,289,120,40
+    GROUPBOX        "Comunicaciones",IDC_STATIC,309,293,120,161
+    PUSHBUTTON      "Reset",IDC_BUTTON_RESET_PREPROC,596,94,50,14,
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_BRIGHT,716,27,20,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_CONTRAST,716,51,20,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_SAT,716,76,20,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Distancia máxima",IDC_STATIC,229,297,56,8
+    CONTROL         "Slider2",IDC_SLIDER_BLOB,"msctls_trackbar32",TBS_TOP | 
+                    WS_TABSTOP,195,353,63,21
+    EDITTEXT        IDC_EDIT_BLOB,265,356,30,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_BUTTON_REGI_RESET,244,430,50,14,WS_DISABLED
+    CONTROL         "Slider2",IDC_SLIDER_XBLOB,"msctls_trackbar32",TBS_TOP | 
+                    WS_DISABLED | WS_TABSTOP,200,390,63,21
+    CONTROL         "Slider2",IDC_SLIDER_YBLOB,"msctls_trackbar32",TBS_TOP | 
+                    WS_DISABLED | WS_TABSTOP,200,412,63,21
+    GROUPBOX        "Formación de BLOBS",IDC_STATIC,186,331,120,119
+    LTEXT           "X",IDC_STATIC,191,399,8,8
+    LTEXT           "Y",IDC_STATIC,190,419,8,8
+    EDITTEXT        IDC_EDIT_XBLOB,265,393,30,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_YBLOB,265,413,30,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Protocolo",IDC_STATIC,323,385,31,8
+    CONTROL         "TCP",IDC_RADIO_TCP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,365,385,30,10
+    CONTROL         "UDP",IDC_RADIO_UDP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,399,385,31,10
+    LISTBOX         IDC_LIST_REFRES,363,405,45,15,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    CONTROL         "IPAddress1",IDC_IPADDRESS_DEST,"SysIPAddress32",
+                    WS_TABSTOP,325,342,100,15
+    EDITTEXT        IDC_EDIT_IP_PORT,385,361,40,14,ES_AUTOHSCROLL
+    LTEXT           "Puerto",IDC_STATIC,357,363,22,8
+    LTEXT           "IP destino",IDC_STATIC,325,332,32,8
+    CONTROL         "IPAddress2",IDC_IPADDRESS_IP_LOCAL,"SysIPAddress32",
+                    WS_TABSTOP,325,309,100,15
+    LTEXT           "IP local",IDC_STATIC,325,298,24,8
+    LTEXT           "Refresco",IDC_STATIC,325,411,30,8
+    LTEXT           "fps",IDC_STATIC,413,411,10,8
+    PUSHBUTTON      "Abrir puerto",IDC_BUTTON_COMM,379,429,50,14
+    GROUPBOX        "Equipo local",IDC_STATIC,443,289,63,54
+    CONTROL         "Azul",IDC_RADIO_TEAMCOLOR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,453,309,40,11
+    CONTROL         "Amarillo",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,453,
+                    322,40,10
+    CONTROL         "Slider1",IDC_SLIDER_OH,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,76,313,37,12
+    CONTROL         "Slider1",IDC_SLIDER_OS,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,76,341,37,12
+    CONTROL         "Slider1",IDC_SLIDER_OI,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,76,369,37,12
+    CONTROL         "Slider1",IDC_SLIDER_HP,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,129,313,37,12
+    LTEXT           "H",IDC_STATIC,68,314,8,8
+    LTEXT           "S",IDC_STATIC,68,341,8,8
+    LTEXT           "I",IDC_STATIC,68,370,8,8
+    LTEXT           "%",IDC_STATIC,123,314,8,8
+    CTEXT           "0",IDC_STATIC_OH,85,305,24,8
+    CTEXT           "0",IDC_STATIC_OS,85,332,21,8
+    CTEXT           "0",IDC_STATIC_OI,85,359,21,8
+    CTEXT           "0",IDC_STATIC_HP,140,305,22,8
+    CONTROL         "Naranja",IDC_RADIO_COLOR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,16,300,38,14
+    CONTROL         "Azul m.",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,16,314,
+                    38,14
+    CONTROL         "Amarillo",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,16,328,
+                    38,14
+    CONTROL         "Verde c.",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,16,342,
+                    38,14
+    CONTROL         "Rosa c.",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,16,356,
+                    38,14
+    CONTROL         "Cyan",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,16,370,38,
+                    14
+    PUSHBUTTON      "&Modificar",IDC_BUTTON_COLOR,67,401,50,14,WS_DISABLED
+    CONTROL         "Slider1",IDC_SLIDER_IP,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,129,369,37,12
+    CONTROL         "Slider1",IDC_SLIDER_SP,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,129,341,37,12
+    LTEXT           "%",IDC_STATIC,123,341,8,8
+    LTEXT           "%",IDC_STATIC,122,370,8,8
+    CTEXT           "0",IDC_STATIC_SP,139,332,21,8
+    CTEXT           "0",IDC_STATIC_IP,139,359,22,8
+    PUSHBUTTON      "&Ver",IDC_BUTTON_VERCOLOR,13,401,50,14
+    PUSHBUTTON      "Ca&librar",IDC_BUTTON_CALCOLOR,121,401,50,14
+    PUSHBUTTON      "Paleta",IDC_BUTTON_COLORPICKER,14,424,50,14
+    PUSHBUTTON      "Histograma",IDC_BUTTON_HISTOGRAM,68,424,50,14,
+                    WS_DISABLED
+    GROUPBOX        "Cancha",IDC_STATIC,445,351,102,97
+    PUSHBUTTON      "Calibrar",IDC_BUTTON_CALIBCANCHA,455,428,50,14
+    LTEXT           "Esq 1",IDC_STATIC,449,378,19,8
+    LTEXT           "Esq 2",IDC_STATIC,448,396,19,8
+    EDITTEXT        IDC_EDIT_CANCHAX1,470,375,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CANCHAY1,505,376,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CANCHAX2,470,393,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CANCHAY2,505,393,31,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,481,364,8,8
+    LTEXT           "Y",IDC_STATIC,515,362,8,8
+    PUSHBUTTON      "Modificar",IDC_BUTTON_CANCHADAT,455,410,50,14
+    CONTROL         "Slider1",IDC_SLIDER_DISTMAXBL,"msctls_trackbar32",
+                    TBS_TOP | WS_TABSTOP,194,305,63,22
+    EDITTEXT        IDC_EDIT_DISTMAXBL,265,308,30,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Abrir",IDC_BUTTON_LOAD,559,367,51,14
+    PUSHBUTTON      "Guardar",IDC_BUTTON_SAVE,559,386,51,14
+    GROUPBOX        "Persistencia",IDC_STATIC,553,351,69,86
+    CONTROL         "Guardar al salir",IDC_ASKTOSAVE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,559,407,53,16
+    PUSHBUTTON      "Modificar",IDC_COMM_BURRON,324,429,50,14
+    CONTROL         "Ver procesamiento",IDC_CHECK_VIDEOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,595,115,92,10
+    PUSHBUTTON      "Sin Distorsion",IDC_BUTTON_DISTOR,655,295,67,20,
+                    BS_CENTER | BS_VCENTER
+    CONTROL         "Cambiar Centro",IDC_CHECK_CENTRO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,657,326,66,14
+    CONTROL         "Cambiar Distor",IDC_CHECK_DISTOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,655,385,74,18
+    LISTBOX         IDC_LIST_DISTA,629,419,31,29,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "a",IDC_STATIC_A,636,404,16,11
+    LISTBOX         IDC_LIST_DISTB,667,419,31,29,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "b",IDC_STATIC_B,673,406,18,10
+    LISTBOX         IDC_LIST_DISTC,704,419,32,29,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "c",IDC_STATIC_C,710,407,18,10
+    LISTBOX         IDC_LISTX,653,359,43,24,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "x",IDC_STATIC_X,660,345,13,11
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 9,0,0,0
+ PRODUCTVERSION 9,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "DirectShow Sample\0"
+            VALUE "CompanyName", "Microsoft\0"
+            VALUE "FileDescription", "StillCap MFC Application\0"
+            VALUE "FileVersion", "9.00\0"
+            VALUE "InternalName", "StillCap\0"
+            VALUE "LegalCopyright", "Copyright (c) 2000-2002 Microsoft Corporation\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "StillCap.EXE\0"
+            VALUE "ProductName", "DirectX 9 SDK\0"
+            VALUE "ProductVersion", "9.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_STILLCAP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 743
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 460
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About StillCap..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Mexican) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+#endif    // Spanish (Mexican) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\StillCap.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

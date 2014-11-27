@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA460018CE2711CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA470018CE2711CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//020
+//021
+//022
+//023
+//024
+		0249A662FF388D9811CA2CEA = {
+			children = (
+				0249A663FF388D9811CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0249A663FF388D9811CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.ar;
+			name = "libstdc++.a";
+			path = "/usr/lib/libstdc++.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//020
+//021
+//022
+//023
+//024
+//080
+//081
+//082
+//083
+//084
+		08FB7793FE84155DC02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA460018CE2711CA2923,
+				014CEA470018CE2711CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 08FB7794FE84155DC02AAC07;
+			projectDirPath = "";
+			targets = (
+				61058A3B07C3D87C00711912,
+				61058A3007C3D81F00711912,
+				61058A2207C3D7EA00711912,
+				8DD76F620486A84900D96B5E,
+			);
+		};
+		08FB7794FE84155DC02AAC07 = {
+			children = (
+				08FB7795FE84155DC02AAC07,
+				0249A662FF388D9811CA2CEA,
+				1AB674ADFE9D54B511CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Sockets;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 = {
+			children = (
+				614BFC2809B243E000673472,
+				614BFC1909B2437D00673472,
+				614BFC1A09B2437D00673472,
+				614BFC0A09B2436E00673472,
+				614BFC0B09B2436E00673472,
+				614BFC0C09B2436E00673472,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+		1AB674ADFE9D54B511CA2CBB = {
+			children = (
+				8DD76F6C0486A84900D96B5E,
+				61058A2B07C3D7EA00711912,
+				61058A3907C3D81F00711912,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+//610
+//611
+//612
+//613
+//614
+		61058A2207C3D7EA00711912 = {
+			buildPhases = (
+				61058A2307C3D7EA00711912,
+				61058A2607C3D7EA00711912,
+				61058A2807C3D7EA00711912,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = server;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Server;
+			productInstallPath = "$(HOME)/bin";
+			productName = Sockets;
+			productReference = 61058A2B07C3D7EA00711912;
+			productType = "com.apple.product-type.tool";
+		};
+		61058A2307C3D7EA00711912 = {
+			buildActionMask = 2147483647;
+			files = (
+				614BFC1109B2436E00673472,
+				614BFC1D09B2437D00673472,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61058A2607C3D7EA00711912 = {
+			buildActionMask = 2147483647;
+			files = (
+				61058A2707C3D7EA00711912,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61058A2707C3D7EA00711912 = {
+			fileRef = 0249A663FF388D9811CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		61058A2807C3D7EA00711912 = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				614BFC1E09B2437D00673472,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		61058A2B07C3D7EA00711912 = {
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = server;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61058A3007C3D81F00711912 = {
+			buildPhases = (
+				61058A3107C3D81F00711912,
+				61058A3407C3D81F00711912,
+				61058A3607C3D81F00711912,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = getipadd;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Getipadd;
+			productInstallPath = "$(HOME)/bin";
+			productName = Sockets;
+			productReference = 61058A3907C3D81F00711912;
+			productType = "com.apple.product-type.tool";
+		};
+		61058A3107C3D81F00711912 = {
+			buildActionMask = 2147483647;
+			files = (
+				614BFC1F09B2437D00673472,
+				614BFC2B09B243E000673472,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61058A3407C3D81F00711912 = {
+			buildActionMask = 2147483647;
+			files = (
+				61058A3507C3D81F00711912,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61058A3507C3D81F00711912 = {
+			fileRef = 0249A663FF388D9811CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		61058A3607C3D81F00711912 = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				614BFC2009B2437D00673472,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		61058A3907C3D81F00711912 = {
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = getipadd;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61058A3B07C3D87C00711912 = {
+			buildPhases = (
+			);
+			buildSettings = {
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = All;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+			};
+			dependencies = (
+				61058A3D07C3D8A300711912,
+				61058A3F07C3D8A300711912,
+				61058A4107C3D8A300711912,
+			);
+			isa = PBXAggregateTarget;
+			name = All;
+			productName = All;
+		};
+		61058A3C07C3D8A300711912 = {
+			containerPortal = 08FB7793FE84155DC02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 61058A3007C3D81F00711912;
+			remoteInfo = Getipadd;
+		};
+		61058A3D07C3D8A300711912 = {
+			isa = PBXTargetDependency;
+			target = 61058A3007C3D81F00711912;
+			targetProxy = 61058A3C07C3D8A300711912;
+		};
+		61058A3E07C3D8A300711912 = {
+			containerPortal = 08FB7793FE84155DC02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 61058A2207C3D7EA00711912;
+			remoteInfo = Server;
+		};
+		61058A3F07C3D8A300711912 = {
+			isa = PBXTargetDependency;
+			target = 61058A2207C3D7EA00711912;
+			targetProxy = 61058A3E07C3D8A300711912;
+		};
+		61058A4007C3D8A300711912 = {
+			containerPortal = 08FB7793FE84155DC02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F620486A84900D96B5E;
+			remoteInfo = Client;
+		};
+		61058A4107C3D8A300711912 = {
+			isa = PBXTargetDependency;
+			target = 8DD76F620486A84900D96B5E;
+			targetProxy = 61058A4007C3D8A300711912;
+		};
+		614BFC0A09B2436E00673472 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = client.cpp;
+			path = /private/var/root/Desktop/mysimulador/Sockets/include/client.cpp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		614BFC0B09B2436E00673472 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = server.cpp;
+			path = /private/var/root/Desktop/mysimulador/Sockets/include/server.cpp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		614BFC0C09B2436E00673472 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = test.cpp;
+			path = /private/var/root/Desktop/mysimulador/Sockets/include/test.cpp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		614BFC0D09B2436E00673472 = {
+			fileRef = 614BFC0A09B2436E00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC1109B2436E00673472 = {
+			fileRef = 614BFC0B09B2436E00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC1909B2437D00673472 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = msocket.cpp;
+			path = /private/var/root/Desktop/mysimulador/Sockets/sockets/msocket.cpp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		614BFC1A09B2437D00673472 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = msocket.h;
+			path = /private/var/root/Desktop/mysimulador/Sockets/sockets/msocket.h;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		614BFC1B09B2437D00673472 = {
+			fileRef = 614BFC1909B2437D00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC1C09B2437D00673472 = {
+			fileRef = 614BFC1A09B2437D00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC1D09B2437D00673472 = {
+			fileRef = 614BFC1909B2437D00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC1E09B2437D00673472 = {
+			fileRef = 614BFC1A09B2437D00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC1F09B2437D00673472 = {
+			fileRef = 614BFC1909B2437D00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC2009B2437D00673472 = {
+			fileRef = 614BFC1A09B2437D00673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		614BFC2809B243E000673472 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = getipadd.cpp;
+			path = /private/var/root/Desktop/mysimulador/Sockets/src/xcode/getipadd.cpp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		614BFC2B09B243E000673472 = {
+			fileRef = 614BFC2809B243E000673472;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//610
+//611
+//612
+//613
+//614
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8DD76F620486A84900D96B5E = {
+			buildPhases = (
+				8DD76F640486A84900D96B5E,
+				8DD76F660486A84900D96B5E,
+				8DD76F690486A84900D96B5E,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = client;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Client;
+			productInstallPath = "$(HOME)/bin";
+			productName = Sockets;
+			productReference = 8DD76F6C0486A84900D96B5E;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F640486A84900D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+				614BFC0D09B2436E00673472,
+				614BFC1B09B2437D00673472,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F660486A84900D96B5E = {
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F670486A84900D96B5E,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F670486A84900D96B5E = {
+			fileRef = 0249A663FF388D9811CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD76F690486A84900D96B5E = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				614BFC1C09B2437D00673472,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8DD76F6C0486A84900D96B5E = {
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = client;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+	};
+	rootObject = 08FB7793FE84155DC02AAC07;
+}

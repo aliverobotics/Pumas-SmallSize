@@ -1,0 +1,1553 @@
+// !$*UTF8*$!
+{
+	6104FD210833B4CF00E2A7C0 = {
+		activeBuildStyle = 6104FD1F0833B4CF00E2A7C0;
+		activeExecutable = 61297DB908DA94A60068B5F2;
+		activeTarget = 61297D9E08DA94A60068B5F2;
+		addToTargets = (
+		);
+		breakpoints = (
+			618A19AF084F7AB40009B01E,
+			6163993609B15D42000074C1,
+			6163996609B162A4000074C1,
+		);
+		codeSenseManager = 6104FD230833B4CF00E2A7C0;
+		executables = (
+			61297DB908DA94A60068B5F2,
+			61AF943C09A9518B00E556FE,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					435.8799,
+					240.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					451,
+					20,
+					83,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					439,
+					20,
+					71,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					386,
+					84,
+					20,
+					84,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 162612660;
+			PBXPrepackagedSmartGroups_v2 = (
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					activationKey = OldTargetSmartGroup;
+					clz = PBXTargetSmartGroup;
+					description = "Displays all targets of the project.";
+					globalID = 1C37FABC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXTargetSmartGroup2;
+					description = "Displays all targets of the project as well as nested build phases.";
+					globalID = 1C37FBAC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXExecutablesSmartGroup;
+					description = "Displays all executables of the project.";
+					globalID = 1C37FAAC04509CD000000102;
+					name = Executables;
+					preferences = {
+						image = Executable;
+					};
+				},
+				{
+					" PBXTransientLocationAtTop " = bottom;
+					absolutePathToBundle = "";
+					clz = PBXErrorsWarningsSmartGroup;
+					description = "Displays files with errors or warnings.";
+					globalID = 1C08E77C0454961000C914BD;
+					name = "Errors and Warnings";
+					preferences = {
+						fnmatch = "";
+						image = WarningsErrors;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = 1CC0EA4004350EF90044410B;
+					name = "Implementation Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "This group displays Interface Builder NIB Files.";
+					globalID = 1CC0EA4004350EF90041110B;
+					name = "NIB Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXFindSmartGroup;
+					description = "Displays Find Results.";
+					globalID = 1C37FABC05509CD000000102;
+					name = "Find Results";
+					preferences = {
+						image = spyglass;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXBookmarksSmartGroup;
+					description = "Displays Project Bookmarks.";
+					globalID = 1C37FABC05539CD112110102;
+					name = Bookmarks;
+					preferences = {
+						image = Bookmarks;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = XCSCMSmartGroup;
+					description = "Displays files with interesting SCM status.";
+					globalID = E2644B35053B69B200211256;
+					name = SCM;
+					preferences = {
+						image = PBXRepository;
+						isLeaf = 0;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXSymbolsSmartGroup;
+					description = "Displays all symbols for the project.";
+					globalID = 1C37FABC04509CD000100104;
+					name = "Project Symbols";
+					preferences = {
+						image = ProjectSymbols;
+						isLeaf = 1;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Filter SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Regular Expression SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					clz = XDDesignSmartGroup;
+					description = "Displays Xdesign models";
+					globalID = 2E4A936305E6979E00701470;
+					name = Design;
+					preferences = {
+						image = Design;
+						isLeaf = 0;
+					};
+				},
+			);
+			PBXWorkspaceStateSaveDate = 162612660;
+		};
+		perUserProjectItems = {
+			6104FDCA0833C0DC00E2A7C0 = 6104FDCA0833C0DC00E2A7C0;
+			6104FDCD0833C0DC00E2A7C0 = 6104FDCD0833C0DC00E2A7C0;
+			6109995A08DA5AD200059892 = 6109995A08DA5AD200059892;
+			6109996908DA5AD200059892 = 6109996908DA5AD200059892;
+			6116184709A961CD004761F8 = 6116184709A961CD004761F8;
+			611BA3910869BFB000E39B1E = 611BA3910869BFB000E39B1E;
+			61265FBD09A969F600C87983 = 61265FBD09A969F600C87983;
+			61265FBE09A969F600C87983 = 61265FBE09A969F600C87983;
+			612677590981CB5F003512F0 = 612677590981CB5F003512F0;
+			6126775C0981CB5F003512F0 = 6126775C0981CB5F003512F0;
+			61297F5408DA96960068B5F2 = 61297F5408DA96960068B5F2;
+			61306BEC08B3BE5F0037D733 = 61306BEC08B3BE5F0037D733;
+			61306BED08B3BE5F0037D733 = 61306BED08B3BE5F0037D733;
+			61306BFA08B3BF120037D733 = 61306BFA08B3BF120037D733;
+			61306BFB08B3BF120037D733 = 61306BFB08B3BF120037D733;
+			61306BFF08B3BF120037D733 = 61306BFF08B3BF120037D733;
+			61306C1508B3CC0D0037D733 = 61306C1508B3CC0D0037D733;
+			613A4D7D08E23588000E99E7 = 613A4D7D08E23588000E99E7;
+			613A4D8208E23588000E99E7 = 613A4D8208E23588000E99E7;
+			61497DEC09A94E4200D2D887 = 61497DEC09A94E4200D2D887;
+			61497DED09A94E4200D2D887 = 61497DED09A94E4200D2D887;
+			61497DF909A94E4200D2D887 = 61497DF909A94E4200D2D887;
+			61497DFA09A94E4200D2D887 = 61497DFA09A94E4200D2D887;
+			615F0E39083509B5009FD8F5 = 615F0E39083509B5009FD8F5;
+			615F0E46083509B5009FD8F5 = 615F0E46083509B5009FD8F5;
+			615F0E7D083527CD009FD8F5 = 615F0E7D083527CD009FD8F5;
+			615F0E82083527CD009FD8F5 = 615F0E82083527CD009FD8F5;
+			616398EB09B1441E000074C1 = 616398EB09B1441E000074C1;
+			616398F109B1441E000074C1 = 616398F109B1441E000074C1;
+			6163994209B15F30000074C1 = 6163994209B15F30000074C1;
+			6163994309B15F87000074C1 = 6163994309B15F87000074C1;
+			6163997609B165E4000074C1 = 6163997609B165E4000074C1;
+			6163997709B165E4000074C1 = 6163997709B165E4000074C1;
+			6163997809B165E4000074C1 = 6163997809B165E4000074C1;
+			6163997F09B165E4000074C1 = 6163997F09B165E4000074C1;
+			6163998009B165E4000074C1 = 6163998009B165E4000074C1;
+			6163998109B165E4000074C1 = 6163998109B165E4000074C1;
+			6163998209B165E4000074C1 = 6163998209B165E4000074C1;
+			6180C0DD0937B42D00A4E6E5 = 6180C0DD0937B42D00A4E6E5;
+			6180C0E60937B42D00A4E6E5 = 6180C0E60937B42D00A4E6E5;
+			61A9B18309A955B400FCDAB1 = 61A9B18309A955B400FCDAB1;
+			61AAC0EC08A54D690051A9DB = 61AAC0EC08A54D690051A9DB;
+			61AAC0ED08A54D690051A9DB = 61AAC0ED08A54D690051A9DB;
+			61AF945E09A9541C00E556FE = 61AF945E09A9541C00E556FE;
+			61B0E36E085CE89600138E2B = 61B0E36E085CE89600138E2B;
+			61C68F6209A96045007B3917 = 61C68F6209A96045007B3917;
+			61DDD7C609A94D2B001F3397 = 61DDD7C609A94D2B001F3397;
+			61E9B9090869087E001B0A1A = 61E9B9090869087E001B0A1A;
+			61E9B90D0869087E001B0A1A = 61E9B90D0869087E001B0A1A;
+			61EC6D5C085BDD4C0016CDE3 = 61EC6D5C085BDD4C0016CDE3;
+			61EC6D64085BDD4C0016CDE3 = 61EC6D64085BDD4C0016CDE3;
+			61EC6DC8085BE9540016CDE3 = 61EC6DC8085BE9540016CDE3;
+			61EC6DCA085BE9540016CDE3 = 61EC6DCA085BE9540016CDE3;
+			61EC6DF8085BE9550016CDE3 = 61EC6DF8085BE9550016CDE3;
+			61EC6DFC085BE9550016CDE3 = 61EC6DFC085BE9550016CDE3;
+			61EC6DFD085BE9550016CDE3 = 61EC6DFD085BE9550016CDE3;
+			61EC6E18085BE9550016CDE3 = 61EC6E18085BE9550016CDE3;
+			61EC6EA3085CBBAE0016CDE3 = 61EC6EA3085CBBAE0016CDE3;
+			61EC6EA5085CBBAE0016CDE3 = 61EC6EA5085CBBAE0016CDE3;
+			61EC6EB9085CBBAE0016CDE3 = 61EC6EB9085CBBAE0016CDE3;
+			61EC6ECB085CBE5A0016CDE3 = 61EC6ECB085CBE5A0016CDE3;
+			61EC6ED1085CBE5A0016CDE3 = 61EC6ED1085CBE5A0016CDE3;
+			61EC6F7C085CD1520016CDE3 = 61EC6F7C085CD1520016CDE3;
+			61EC6F7D085CD1520016CDE3 = 61EC6F7D085CD1520016CDE3;
+			61EC6F88085CD1520016CDE3 = 61EC6F88085CD1520016CDE3;
+			61FA366E09A95D0100A91D04 = 61FA366E09A95D0100A91D04;
+			61FA367A09A95D3900A91D04 = 61FA367A09A95D3900A91D04;
+			61FA367B09A95D3900A91D04 = 61FA367B09A95D3900A91D04;
+			61FA367F09A95D3900A91D04 = 61FA367F09A95D3900A91D04;
+			61FA368009A95D3900A91D04 = 61FA368009A95D3900A91D04;
+			61FA368109A95D3900A91D04 = 61FA368109A95D3900A91D04;
+		};
+		sourceControlManager = 6104FD220833B4CF00E2A7C0;
+		userBuildSettings = {
+			SYMROOT = ./;
+		};
+	};
+	6104FD220833B4CF00E2A7C0 = {
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	6104FD230833B4CF00E2A7C0 = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionListAlways = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	6104FDBC0833C0AD00E2A7C0 = {
+		buildActionMask = 2147483647;
+		files = (
+		);
+		isa = PBXHeadersBuildPhase;
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	6104FDBD0833C0AD00E2A7C0 = {
+		buildActionMask = 2147483647;
+		files = (
+		);
+		isa = PBXSourcesBuildPhase;
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	6104FDBE0833C0AD00E2A7C0 = {
+		buildActionMask = 2147483647;
+		files = (
+		);
+		isa = PBXFrameworksBuildPhase;
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	6104FDBF0833C0AD00E2A7C0 = {
+		buildActionMask = 2147483647;
+		files = (
+		);
+		isa = PBXRezBuildPhase;
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	6104FDC00833C0AD00E2A7C0 = {
+		activeExec = 0;
+		buildPhases = (
+			6104FDBC0833C0AD00E2A7C0,
+			6104FDBD0833C0AD00E2A7C0,
+			6104FDBE0833C0AD00E2A7C0,
+			6104FDBF0833C0AD00E2A7C0,
+		);
+		buildSettings = {
+			OTHER_CFLAGS = "";
+			OTHER_LDFLAGS = "";
+			OTHER_REZFLAGS = "";
+			PRODUCT_NAME = msocket;
+			REZ_EXECUTABLE = YES;
+			SECTORDER_FLAGS = "";
+			WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+		};
+		dependencies = (
+		);
+		isa = PBXToolTarget;
+		name = msocket;
+		productInstallPath = /usr/local/bin;
+		productName = msocket;
+	};
+	6104FDCA0833C0DC00E2A7C0 = {
+		isa = PBXTargetBookmark;
+		trg = 6104FDC00833C0AD00E2A7C0;
+	};
+	6104FDCD0833C0DC00E2A7C0 = {
+		isa = PBXTargetBookmark;
+		trg = 6104FDC00833C0AD00E2A7C0;
+	};
+	6109995A08DA5AD200059892 = {
+		fRef = 6109995B08DA5AD200059892;
+		isa = PBXTextBookmark;
+		name = "//prints the state vector\nint Print_SV (char* cad)\n{\n    int times;\n\tsscanf (cad,\"%d\",times);\n\tfor (int i=0;i<times;i++)\n\t    rob->Info->Print_State();\n}";
+		rLen = 153;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 154;
+		vrLoc = 189;
+	};
+	6109995B08DA5AD200059892 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = User.h;
+		path = /MyDocs/XDevelop/Jander/User.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	6109996908DA5AD200059892 = {
+		fRef = 6109996A08DA5AD200059892;
+		isa = PBXTextBookmark;
+		name = "//prints the state vector\nint Print_SV (char* cad)\n{\n    int times;\n\tsscanf (cad,\"%d\",times);\n\tfor (int i=0;i<times;i++)\n\t    rob->Info->Print_State();\n}";
+		rLen = 153;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 154;
+		vrLoc = 189;
+	};
+	6109996A08DA5AD200059892 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = User.h;
+		path = /MyDocs/XDevelop/Jander/User.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	6116184709A961CD004761F8 = {
+		fRef = 61DDD7AB09A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 308;
+		vrLoc = 0;
+	};
+	611BA3750869BE9700E39B1E = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = ejemplin.c;
+		path = /MyDocs/XDevelop/CLips6.2/ogl_pthreads/ejemplin.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	611BA3910869BFB000E39B1E = {
+		fRef = 611BA3750869BE9700E39B1E;
+		isa = PBXTextBookmark;
+		name = "pthread_create(&threads[0], &attr, primera_ventana, (void *)&data[0]);";
+		rLen = 70;
+		rLoc = 3378;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 3200;
+	};
+	61265FBD09A969F600C87983 = {
+		fRef = 61DDD73909A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = "Learning.h: 127";
+		rLen = 0;
+		rLoc = 2975;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 2721;
+	};
+	61265FBE09A969F600C87983 = {
+		fRef = 61DDD73909A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = "Learning.h: 127";
+		rLen = 0;
+		rLoc = 2975;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 2721;
+	};
+	6126775409818A00003512F0 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = test_crash.cpp;
+		path = /MyDocs/XDevelop/ODE/ode/test/test_crash.cpp;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	612677590981CB5F003512F0 = {
+		fRef = 6126775409818A00003512F0;
+		isa = PBXTextBookmark;
+		name = "test_crash.cpp: 75";
+		rLen = 0;
+		rLoc = 3231;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 2826;
+	};
+	6126775C0981CB5F003512F0 = {
+		fRef = 6126775409818A00003512F0;
+		isa = PBXTextBookmark;
+		name = "test_crash.cpp: 75";
+		rLen = 0;
+		rLoc = 3231;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 2826;
+	};
+	61297D9E08DA94A60068B5F2 = {
+		activeExec = 0;
+		executables = (
+			61297DB908DA94A60068B5F2,
+		);
+	};
+	61297DB908DA94A60068B5F2 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				displayName = "Executable Runner";
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		cppStopOnCatchEnabled = 0;
+		cppStopOnThrowEnabled = 0;
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		libgmallocEnabled = 0;
+		name = Trainer;
+		savedGlobals = {
+		};
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+		startupPath = /MyDocs/XDevelop/Trainer/bin;
+	};
+	61297F5408DA96960068B5F2 = {
+		isa = PBXTargetBookmark;
+		trg = 61297D9E08DA94A60068B5F2;
+	};
+	61306BDF08B3BE1B0037D733 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = SVG_gsNetPoll.cpp;
+		path = /MyDocs/XDevelop/Jander/SVG_gsNetPoll.cpp;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61306BE008B3BE1B0037D733 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SVG_gsNetPoll.h;
+		path = /MyDocs/XDevelop/Jander/SVG_gsNetPoll.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61306BE108B3BE1B0037D733 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = SVG_sockets_clips.cpp;
+		path = /MyDocs/XDevelop/Jander/SVG_sockets_clips.cpp;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61306BEC08B3BE5F0037D733 = {
+		fRef = 61306BE008B3BE1B0037D733;
+		isa = PBXTextBookmark;
+		name = "SVG_gsNetPoll.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	61306BED08B3BE5F0037D733 = {
+		fRef = 61306BE108B3BE1B0037D733;
+		isa = PBXTextBookmark;
+		name = "SVG_sockets_clips.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 0;
+	};
+	61306BFA08B3BF120037D733 = {
+		fRef = 61306BDF08B3BE1B0037D733;
+		isa = PBXTextBookmark;
+		name = "SVG_gsNetPoll.cpp: 1";
+		rLen = 0;
+		rLoc = 14;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	61306BFB08B3BF120037D733 = {
+		fRef = 61306BE008B3BE1B0037D733;
+		isa = PBXTextBookmark;
+		name = "SVG_gsNetPoll.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	61306BFF08B3BF120037D733 = {
+		fRef = 61306BDF08B3BE1B0037D733;
+		isa = PBXTextBookmark;
+		name = "SVG_gsNetPoll.cpp: 1";
+		rLen = 0;
+		rLoc = 14;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	61306C1508B3CC0D0037D733 = {
+		fRef = 61306BE108B3BE1B0037D733;
+		isa = PBXTextBookmark;
+		name = "SVG_sockets_clips.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 0;
+	};
+	613A4D1B08E220E6000E99E7 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = termcap.h;
+		path = /usr/include/termcap.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	613A4D7D08E23588000E99E7 = {
+		fRef = 613A4D1B08E220E6000E99E7;
+		isa = PBXTextBookmark;
+		name = "termcap.h: 67";
+		rLen = 0;
+		rLoc = 3340;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 2906;
+	};
+	613A4D8208E23588000E99E7 = {
+		fRef = 613A4D1B08E220E6000E99E7;
+		isa = PBXTextBookmark;
+		name = "termcap.h: 67";
+		rLen = 0;
+		rLoc = 3340;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 2906;
+	};
+	61497DEC09A94E4200D2D887 = {
+		fRef = 61DDD73A09A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = "Neuron.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+	61497DED09A94E4200D2D887 = {
+		fRef = 61DDD74709A94C41001F3397;
+		isa = PBXTextBookmark;
+		name = "msocket.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 0;
+	};
+	61497DF909A94E4200D2D887 = {
+		fRef = 61DDD73A09A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = "Neuron.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+	61497DFA09A94E4200D2D887 = {
+		fRef = 61DDD74709A94C41001F3397;
+		isa = PBXTextBookmark;
+		name = "msocket.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 0;
+	};
+	61497E0309A94E7400D2D887 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 461}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
+		};
+	};
+	615F0E39083509B5009FD8F5 = {
+		fRef = 615F0E3A083509B5009FD8F5;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 1794;
+	};
+	615F0E3A083509B5009FD8F5 = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = Viewer;
+		path = /System/Library/Frameworks/osgProducer.framework/Versions/A/Headers/Viewer;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	615F0E46083509B5009FD8F5 = {
+		fRef = 615F0E47083509B5009FD8F5;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 1794;
+	};
+	615F0E47083509B5009FD8F5 = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = Viewer;
+		path = /System/Library/Frameworks/osgProducer.framework/Versions/A/Headers/Viewer;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	615F0E7D083527CD009FD8F5 = {
+		fRef = 615F0E7E083527CD009FD8F5;
+		isa = PBXTextBookmark;
+		name = "(null): 2069";
+		rLen = 0;
+		rLoc = 44799;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 44497;
+	};
+	615F0E7E083527CD009FD8F5 = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = missing.txt;
+		path = /MyDocs/XDevelop/Jander/missing.txt;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	615F0E82083527CD009FD8F5 = {
+		fRef = 615F0E83083527CD009FD8F5;
+		isa = PBXTextBookmark;
+		name = "(null): 2069";
+		rLen = 0;
+		rLoc = 44799;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 44497;
+	};
+	615F0E83083527CD009FD8F5 = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = missing.txt;
+		path = /MyDocs/XDevelop/Jander/missing.txt;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	616398EB09B1441E000074C1 = {
+		fRef = 61650F7F09A95030005973B3;
+		isa = PBXTextBookmark;
+		name = "main_getset.cpp: 272";
+		rLen = 0;
+		rLoc = 6442;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 6300;
+	};
+	616398F109B1441E000074C1 = {
+		fRef = 61DDD73909A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = strcat;
+		rLen = 6;
+		rLoc = 6135;
+		rType = 0;
+		vrLen = 271;
+		vrLoc = 5980;
+	};
+	6163993609B15D42000074C1 = {
+		fileReference = 61DDD7AB09A94C99001F3397;
+		functionName = "Camera_Loop()";
+		isa = PBXFileBreakpoint;
+		lineNumber = 565;
+		state = 1;
+	};
+	6163994209B15F30000074C1 = {
+		fRef = 61DDD7AB09A94C99001F3397;
+		isa = PBXTextBookmark;
+		rLen = 1;
+		rLoc = 234;
+		rType = 1;
+	};
+	6163994309B15F87000074C1 = {
+		fRef = 61DDD7AB09A94C99001F3397;
+		isa = PBXTextBookmark;
+		rLen = 1;
+		rLoc = 234;
+		rType = 1;
+	};
+	6163996609B162A4000074C1 = {
+		fileReference = 61DDD7AB09A94C99001F3397;
+		functionName = "process_data()";
+		isa = PBXFileBreakpoint;
+		lineNumber = 253;
+		state = 1;
+	};
+	6163997609B165E4000074C1 = {
+		fRef = 61DDD74609A94C41001F3397;
+		isa = PBXTextBookmark;
+		name = "msocket.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	6163997709B165E4000074C1 = {
+		fRef = 61DDD7AB09A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "main.cpp: 969";
+		rLen = 0;
+		rLoc = 17637;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 19662;
+	};
+	6163997809B165E4000074C1 = {
+		fRef = 61DDD74609A94C41001F3397;
+		isa = PBXTextBookmark;
+		name = "msocket.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	6163997F09B165E4000074C1 = {
+		fRef = 61DDD7AB09A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "main.cpp: 970";
+		rLen = 0;
+		rLoc = 20533;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 19657;
+	};
+	6163998009B165E4000074C1 = {
+		fRef = 61DDD7AB09A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "main.cpp: 308";
+		rLen = 0;
+		rLoc = 7478;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 5639;
+	};
+	6163998109B165E4000074C1 = {
+		fRef = 61DDD7AB09A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "main.cpp: 235";
+		rLen = 0;
+		rLoc = 5556;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 5464;
+	};
+	6163998209B165E4000074C1 = {
+		fRef = 61DDD73909A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = strcat;
+		rLen = 6;
+		rLoc = 6135;
+		rType = 0;
+		vrLen = 275;
+		vrLoc = 5976;
+	};
+	61650F7F09A95030005973B3 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 11354}}";
+			sepNavSelRange = "{6442, 0}";
+			sepNavVisRect = "{{0, 3696}, {684, 218}}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	6180C0DD0937B42D00A4E6E5 = {
+		fRef = 6180C0DE0937B42D00A4E6E5;
+		isa = PBXTextBookmark;
+		name = "(null): 207";
+		rLen = 0;
+		rLoc = 4882;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 4764;
+	};
+	6180C0DE0937B42D00A4E6E5 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Hardwire.h;
+		path = /MyDocs/XDevelop/ViRbot/include/Hardwire.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	6180C0E60937B42D00A4E6E5 = {
+		fRef = 6180C0E70937B42D00A4E6E5;
+		isa = PBXTextBookmark;
+		name = "(null): 207";
+		rLen = 0;
+		rLoc = 4882;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 4764;
+	};
+	6180C0E70937B42D00A4E6E5 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Hardwire.h;
+		path = /MyDocs/XDevelop/ViRbot/include/Hardwire.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	618A1997084F79E20009B01E = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = main.cpp;
+		path = /MyDocs/XDevelop/FIFA/main.cpp;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	618A19AF084F7AB40009B01E = {
+		fileReference = 618A1997084F79E20009B01E;
+		functionName = "main()";
+		isa = PBXFileBreakpoint;
+		lineNumber = 44;
+		state = 1;
+	};
+	61A9B18309A955B400FCDAB1 = {
+		isa = PBXTargetBookmark;
+		trg = 61AF942309A9518B00E556FE;
+	};
+	61AAC0CA08A546790051A9DB = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = edmain.c;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/edmain.c";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61AAC0EC08A54D690051A9DB = {
+		fRef = 61AAC0CA08A546790051A9DB;
+		isa = PBXTextBookmark;
+		name = Key;
+		rLen = 3;
+		rLoc = 3139;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 2626;
+	};
+	61AAC0ED08A54D690051A9DB = {
+		fRef = 61AAC0CA08A546790051A9DB;
+		isa = PBXTextBookmark;
+		name = Key;
+		rLen = 3;
+		rLoc = 3139;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 2626;
+	};
+	61AF942309A9518B00E556FE = {
+		activeExec = 0;
+		executables = (
+			61AF943C09A9518B00E556FE,
+		);
+	};
+	61AF943C09A9518B00E556FE = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				displayName = "Executable Runner";
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		cppStopOnCatchEnabled = 0;
+		cppStopOnThrowEnabled = 0;
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		libgmallocEnabled = 0;
+		name = Getset;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+		startupPath = /private/var/root/Desktop/Trainer/sets;
+	};
+	61AF945E09A9541C00E556FE = {
+		isa = PBXTargetBookmark;
+		trg = 61AF942309A9518B00E556FE;
+	};
+	61B0E36E085CE89600138E2B = {
+		fRef = 61B0E36F085CE89600138E2B;
+		isa = PBXTextBookmark;
+		name = "(null): 2";
+		rLen = 0;
+		rLoc = 38;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 547;
+	};
+	61B0E36F085CE89600138E2B = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = ejemplin.c;
+		path = /MyDocs/XDevelop/CLips6.2/ogl_pthreads/ejemplin.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61C68F6209A96045007B3917 = {
+		fRef = 61DDD73609A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = "Cadenas.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	61DDD73609A94C23001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 1119}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+		};
+	};
+	61DDD73709A94C23001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 11227}}";
+			sepNavSelRange = "{14550, 6}";
+			sepNavVisRect = "{{0, 8949}, {725, 233}}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	61DDD73909A94C23001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {725, 5123}}";
+			sepNavSelRange = "{6135, 6}";
+			sepNavVisRect = "{{0, 3608}, {725, 233}}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	61DDD73A09A94C23001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 7447}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	61DDD74609A94C41001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 3037}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
+		};
+	};
+	61DDD74709A94C41001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 1497}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+		};
+	};
+	61DDD7A809A94C99001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 1217}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+		};
+	};
+	61DDD7A909A94C99001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {930, 4283}}";
+			sepNavSelRange = "{4545, 0}";
+			sepNavVisRect = "{{0, 3237}, {930, 261}}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	61DDD7AB09A94C99001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 14210}}";
+			sepNavSelRange = "{20533, 0}";
+			sepNavVisRect = "{{0, 13034}, {684, 218}}";
+			sepNavWindowFrame = "{{90, 107}, {750, 558}}";
+		};
+	};
+	61DDD7AC09A94C99001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 784}}";
+			sepNavSelRange = "{887, 0}";
+			sepNavVisRect = "{{0, 638}, {656, 146}}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+		};
+	};
+	61DDD7AF09A94C99001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 993}}";
+			sepNavSelRange = "{25, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
+		};
+	};
+	61DDD7B009A94C99001F3397 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 419}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {684, 218}}";
+			sepNavWindowFrame = "{{38, 162}, {750, 558}}";
+		};
+	};
+	61DDD7C609A94D2B001F3397 = {
+		fRef = 61DDD73609A94C23001F3397;
+		isa = PBXTextBookmark;
+		name = "Cadenas.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	61E9B9090869087E001B0A1A = {
+		fRef = 61E9B90A0869087E001B0A1A;
+		isa = PBXTextBookmark;
+		name = EnvReset;
+		rLen = 8;
+		rLoc = 3249;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 3127;
+	};
+	61E9B90A0869087E001B0A1A = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = constrct.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/constrct.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61E9B90D0869087E001B0A1A = {
+		fRef = 61E9B90E0869087E001B0A1A;
+		isa = PBXTextBookmark;
+		name = EnvReset;
+		rLen = 8;
+		rLoc = 3249;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 3127;
+	};
+	61E9B90E0869087E001B0A1A = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = constrct.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/constrct.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC692F085BDB0C0016CDE3 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = agenda.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/agenda.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC6931085BDB0C0016CDE3 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = analysis.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/analysis.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC6933085BDB0C0016CDE3 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = argacces.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/argacces.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC6934085BDB0C0016CDE3 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = bload.c;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/bload.c";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC6937085BDB0C0016CDE3 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = bmathfun.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/bmathfun.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC69F7085BDB0C0016CDE3 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = lgcldpnd.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/lgcldpnd.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC69F9085BDB0C0016CDE3 = {
+		fileEncoding = 30;
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = match.h;
+		path = "/MyDocs/XDevelop/CLips6.2/CLIPS Project/CLIPS Source/match.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC6D5C085BDD4C0016CDE3 = {
+		fRef = 61EC692F085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "agenda.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6D64085BDD4C0016CDE3 = {
+		fRef = 61EC692F085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "agenda.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6DC8085BE9540016CDE3 = {
+		fRef = 61EC69F9085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "match.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6DCA085BE9540016CDE3 = {
+		fRef = 61EC69F7085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "lgcldpnd.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6DF8085BE9550016CDE3 = {
+		fRef = 61EC6933085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "argacces.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6DFC085BE9550016CDE3 = {
+		fRef = 61EC6931085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "analysis.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6DFD085BE9550016CDE3 = {
+		fRef = 61EC69F9085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "match.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6E18085BE9550016CDE3 = {
+		fRef = 61EC69F7085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "lgcldpnd.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6EA3085CBBAE0016CDE3 = {
+		fRef = 61EC6931085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "analysis.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6EA5085CBBAE0016CDE3 = {
+		fRef = 61EC6937085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "bmathfun.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6EB9085CBBAE0016CDE3 = {
+		fRef = 61EC6937085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "bmathfun.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6ECB085CBE5A0016CDE3 = {
+		fRef = 61EC6ECC085CBE5A0016CDE3;
+		isa = PBXTextBookmark;
+		name = "#include <windows.h>\n#include <stdio.h>\n#include \"clips.h\"\n\n#define THREADCOUNT 2\nchar *InputClipsFile[THREADCOUNT] ={\"MultiRun.clp\",\"MultiRun.clp\" };\nvoid *TEnv[THREADCOUNT];\n\nvoid ClipsThreadmain(int i)\n{\n\tint lNoRules,error;\n\tchar asTemp[512];\n\n\tTEnv[i] = CreateEnvironment();\n    \n\terror = EnvLoad(TEnv[i],InputClipsFile[i]);\n\tif(!error)\n\t{\n\t\tprintf(\"load error \\n\");\t\n\t\texit(1);\n\t}\n\n\tsprintf( asTemp,\"( gen1 of context (Count 0))\" );\n\tEnvMakeInstance(TEnv[i],asTemp);\n\n\t/* run the Clips rules */\n\tlNoRules = EnvRun(TEnv[i],-1L);\n\tprintf(\"Number of Rules Fired %d \\n\",lNoRules);\n\n\tEnvClear(TEnv[i]);\n\tDestroyEnvironment(TEnv[i]);\n}\nvoid main()\n{\n   DWORD IDThread;\n   HANDLE hThread[THREADCOUNT];\n   DWORD dwWaitResult; \n   int i;\n   \n   // Create multiple threads\n   for (i = 0; i < THREADCOUNT; i++) \n   { \n      hThread[i] = CreateThread(\n\t\t\tNULL,\t\t\t\t\t// no security attributes \n\t\t\t0,                      // use default stack size \n\t\t\t(LPTHREAD_START_ROUTINE) ClipsThreadmain, // thread function \n\t\t\t(LPVOID)i,              // thread function argument \n\t\t\t0,                      // use default creation flags \n\t\t\t&IDThread);             // returns thread identifier \n \n      // Check the return value for success. \n      if (hThread[i] == NULL) \n         fprintf(stdout,\"CreateThread error\\n\"); \n   }\n   for (i=0;i<THREADCOUNT;i++)\n   {\n\t\tdwWaitResult = WaitForSingleObject(hThread[i], INFINITE);\n   }\n   for (i=0;i<THREADCOUNT;i++)\n   {\n\t\tCloseHandle(hThread[i]);\n   }\n}\n\n";
+		rLen = 1482;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	61EC6ECC085CBE5A0016CDE3 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = MultiRun.c;
+		path = /MyDocs/XDevelop/CLips6.2/others/MultiRun.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC6ED1085CBE5A0016CDE3 = {
+		fRef = 61EC6ED2085CBE5A0016CDE3;
+		isa = PBXTextBookmark;
+		name = "#include <windows.h>\n#include <stdio.h>\n#include \"clips.h\"\n\n#define THREADCOUNT 2\nchar *InputClipsFile[THREADCOUNT] ={\"MultiRun.clp\",\"MultiRun.clp\" };\nvoid *TEnv[THREADCOUNT];\n\nvoid ClipsThreadmain(int i)\n{\n\tint lNoRules,error;\n\tchar asTemp[512];\n\n\tTEnv[i] = CreateEnvironment();\n    \n\terror = EnvLoad(TEnv[i],InputClipsFile[i]);\n\tif(!error)\n\t{\n\t\tprintf(\"load error \\n\");\t\n\t\texit(1);\n\t}\n\n\tsprintf( asTemp,\"( gen1 of context (Count 0))\" );\n\tEnvMakeInstance(TEnv[i],asTemp);\n\n\t/* run the Clips rules */\n\tlNoRules = EnvRun(TEnv[i],-1L);\n\tprintf(\"Number of Rules Fired %d \\n\",lNoRules);\n\n\tEnvClear(TEnv[i]);\n\tDestroyEnvironment(TEnv[i]);\n}\nvoid main()\n{\n   DWORD IDThread;\n   HANDLE hThread[THREADCOUNT];\n   DWORD dwWaitResult; \n   int i;\n   \n   // Create multiple threads\n   for (i = 0; i < THREADCOUNT; i++) \n   { \n      hThread[i] = CreateThread(\n\t\t\tNULL,\t\t\t\t\t// no security attributes \n\t\t\t0,                      // use default stack size \n\t\t\t(LPTHREAD_START_ROUTINE) ClipsThreadmain, // thread function \n\t\t\t(LPVOID)i,              // thread function argument \n\t\t\t0,                      // use default creation flags \n\t\t\t&IDThread);             // returns thread identifier \n \n      // Check the return value for success. \n      if (hThread[i] == NULL) \n         fprintf(stdout,\"CreateThread error\\n\"); \n   }\n   for (i=0;i<THREADCOUNT;i++)\n   {\n\t\tdwWaitResult = WaitForSingleObject(hThread[i], INFINITE);\n   }\n   for (i=0;i<THREADCOUNT;i++)\n   {\n\t\tCloseHandle(hThread[i]);\n   }\n}\n\n";
+		rLen = 1482;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	61EC6ED2085CBE5A0016CDE3 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = MultiRun.c;
+		path = /MyDocs/XDevelop/CLips6.2/others/MultiRun.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	61EC6F7C085CD1520016CDE3 = {
+		fRef = 61EC6933085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "argacces.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6F7D085CD1520016CDE3 = {
+		fRef = 61EC6934085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "bload.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61EC6F88085CD1520016CDE3 = {
+		fRef = 61EC6934085BDB0C0016CDE3;
+		isa = PBXTextBookmark;
+		name = "bload.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	61FA366E09A95D0100A91D04 = {
+		isa = PBXTargetBookmark;
+		trg = 61297D9E08DA94A60068B5F2;
+	};
+	61FA367A09A95D3900A91D04 = {
+		fRef = 61DDD7AF09A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "Setup.h: 3";
+		rLen = 0;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	61FA367B09A95D3900A91D04 = {
+		fRef = 61DDD7A809A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "Angles.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	61FA367F09A95D3900A91D04 = {
+		fRef = 61DDD7AF09A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "Setup.h: 3";
+		rLen = 0;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	61FA368009A95D3900A91D04 = {
+		fRef = 61650F7F09A95030005973B3;
+		isa = PBXTextBookmark;
+		name = "\tchar parse[80];\n";
+		rLen = 17;
+		rLoc = 6443;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 6300;
+	};
+	61FA368109A95D3900A91D04 = {
+		fRef = 61DDD7A809A94C99001F3397;
+		isa = PBXTextBookmark;
+		name = "Angles.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+}

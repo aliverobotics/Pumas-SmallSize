@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StillCapDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\david\CONFIG~1\Temp\RSP3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/StillCapDlg.pdb" /debug /machine:I386 /out:"Debug/StillCapDlg.exe" /pdbtype:sept 
+".\Debug\StillCapDlg.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\david\CONFIG~1\Temp\RSP3.tmp"
+<h3>Output Window</h3>
+Linking...
+StillCapDlg.obj : error LNK2001: unresolved external symbol _MEDIATYPE_Audio
+StillCapDlg.obj : error LNK2001: unresolved external symbol _MEDIATYPE_Video
+StillCapDlg.obj : error LNK2001: unresolved external symbol _TIME_FORMAT_FRAME
+StillCapDlg.obj : error LNK2001: unresolved external symbol "int __cdecl wsprintfWInternal(unsigned short *,unsigned short const *,...)" (?wsprintfWInternal@@YAHPAGPBGZZ)
+StillCapDlg.obj : error LNK2001: unresolved external symbol _TIME_FORMAT_MEDIA_TIME
+StillCapDlg.obj : error LNK2001: unresolved external symbol _IID_ISampleGrabberCB
+StillCapDlg.obj : error LNK2001: unresolved external symbol "void __stdcall FreeMediaType(struct _AMMediaType &)" (?FreeMediaType@@YGXAAU_AMMediaType@@@Z)
+StillCapDlg.obj : error LNK2001: unresolved external symbol _PIN_CATEGORY_CAPTURE
+StillCapDlg.obj : error LNK2001: unresolved external symbol _PIN_CATEGORY_PREVIEW
+StillCapDlg.obj : error LNK2001: unresolved external symbol _MEDIATYPE_Interleaved
+StillCapDlg.obj : error LNK2001: unresolved external symbol _CLSID_NullRenderer
+StillCapDlg.obj : error LNK2001: unresolved external symbol _PIN_CATEGORY_VIDEOPORT
+StillCapDlg.obj : error LNK2001: unresolved external symbol _CLSID_CaptureGraphBuilder2
+StillCapDlg.obj : error LNK2001: unresolved external symbol "public: __thiscall CMediaType::~CMediaType(void)" (??1CMediaType@@QAE@XZ)
+StillCapDlg.obj : error LNK2001: unresolved external symbol "public: void __thiscall CMediaType::SetSubtype(struct _GUID const *)" (?SetSubtype@CMediaType@@QAEXPBU_GUID@@@Z)
+StillCapDlg.obj : error LNK2001: unresolved external symbol _MEDIASUBTYPE_RGB24
+StillCapDlg.obj : error LNK2001: unresolved external symbol "public: void __thiscall CMediaType::SetType(struct _GUID const *)" (?SetType@CMediaType@@QAEXPBU_GUID@@@Z)
+StillCapDlg.obj : error LNK2001: unresolved external symbol "public: __thiscall CMediaType::CMediaType(void)" (??0CMediaType@@QAE@XZ)
+StillCapDlg.obj : error LNK2001: unresolved external symbol _CLSID_SampleGrabber
+StillCapDlg.obj : error LNK2001: unresolved external symbol _CLSID_FilterGraph
+StillCapDlg.obj : error LNK2001: unresolved external symbol _MEDIASUBTYPE_Avi
+StillCapDlg.obj : error LNK2001: unresolved external symbol _IID_IBaseFilter
+StillCapDlg.obj : error LNK2001: unresolved external symbol "int __stdcall lstrlenWInternal(unsigned short const *)" (?lstrlenWInternal@@YGHPBG@Z)
+StillCapDlg.obj : error LNK2001: unresolved external symbol _CLSID_VideoInputDeviceCategory
+StillCapDlg.obj : error LNK2001: unresolved external symbol _CLSID_SystemDeviceEnum
+StillCapDlg.obj : error LNK2001: unresolved external symbol _IID_IMediaControl
+StillCapDlg.obj : error LNK2001: unresolved external symbol _IID_IVideoWindow
+msvcrtd.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+Debug/StillCapDlg.exe : fatal error LNK1120: 28 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+StillCapDlg.exe - 29 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

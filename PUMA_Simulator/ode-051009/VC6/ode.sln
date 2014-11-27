@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCODE", "..\OPCODE\Opcode.vcproj", "{FA6CD563-460D-4E1F-8683-4F105A08E84A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ode", "ode.vcproj", "{82BB9466-7FF5-4D41-9042-FA8DCCC647B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA6CD563-460D-4E1F-8683-4F105A08E84A} = {FA6CD563-460D-4E1F-8683-4F105A08E84A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FA6CD563-460D-4E1F-8683-4F105A08E84A}.Debug.ActiveCfg = Debug|Win32
+		{FA6CD563-460D-4E1F-8683-4F105A08E84A}.Debug.Build.0 = Debug|Win32
+		{FA6CD563-460D-4E1F-8683-4F105A08E84A}.Release.ActiveCfg = Release|Win32
+		{FA6CD563-460D-4E1F-8683-4F105A08E84A}.Release.Build.0 = Release|Win32
+		{82BB9466-7FF5-4D41-9042-FA8DCCC647B7}.Debug.ActiveCfg = Debug|Win32
+		{82BB9466-7FF5-4D41-9042-FA8DCCC647B7}.Debug.Build.0 = Debug|Win32
+		{82BB9466-7FF5-4D41-9042-FA8DCCC647B7}.Release.ActiveCfg = Release|Win32
+		{82BB9466-7FF5-4D41-9042-FA8DCCC647B7}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

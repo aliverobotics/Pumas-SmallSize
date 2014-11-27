@@ -1,0 +1,23 @@
+La clase BioSockets posee los siguientes atributos accesibles:
+
+Port : int                    //indica porque puerto esta conectado
+Connected : bool        //indica si esta conectado el socket
+
+y posee los siguientes métodos:
+
+StartServerAt(int port) : void   //Inicializa un socket en el puerto
+port y espera una conexion
+ConnectTo(string, int) : bool   //Inicializa un socket como cliente
+por lo tanto
+                                          //se le indica la IP del
+servidor y el puerto
+                                          //y regresa true si se
+logra establecer la
+                                          //conexion
+Write(string) : void                 //Escribe una string en el scoket
+WriteLine(string) : void           //Escribe una linea en el socket
+Read() : int                           //Lee un caracter del socket y
+pasa el apuntador del buffer al
+                                          //siguiente caracter
+ReadLine() : string                 //Lee una linea del socket
+Close() : void                         //Cierra limpiamente el socket

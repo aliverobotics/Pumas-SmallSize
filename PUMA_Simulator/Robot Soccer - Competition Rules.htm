@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0080)http://www.ee.byu.edu/grad1/users/beard/www_docs/490/robot/2003/class/rules.html -->
+<HTML><HEAD><TITLE>Robot Soccer - Competition Rules</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR></HEAD>
+<BODY bgColor=white>
+<CENTER>
+<H2>Competition Rules</H2></CENTER>
+<H3>Overview</H3>
+<P>2004 marks the second year that the BYU Robot Soccer competition will be a 
+two-on-two competition. We'll adopt many of the <A 
+href="http://www.ee.byu.edu/grad1/users/beard/www_docs/490/robot/2003/class/f180rules.pdf" 
+target=_new>rules of the Robocup Smallsize (F-180) league</A>, particularly 
+those for the size of robots and the field, and we'll try to be consistent with 
+their style of play. Over time, the continuing improvements in play in our 
+senior project competition may help us create a competitive team that can 
+represent BYU in the smallsize league.</P>
+<P>This document describes the rules of our competition for Winter Semester 
+2004. Differences from the rules of the Robocup Smallsize league will be 
+highlighted.</P>
+<H3>The equipment</H3>
+<P>Our competition will be held on the playing field located in the senior 
+project room (498 CB). The field is green with white markings and is not to be 
+modified by participants in any way. Unlike the Robocup fields, ours will 
+continue to use the side ramps and side walls that keep the ball in play. The 
+length of the field is 2900 mm and the width is 2400 mm. All walls will be 
+painted black and the tops of the goals will be clear. No penalty markings will 
+be painted on the field and standard Robocup rules regarding placement of the 
+ball during penalties will not be followed. A standard orange golf ball will be 
+used as the soccer ball. The ball is approximately 46 g in mass and 43 mm in 
+diameter.</P>
+<P>During competition, each team will have two dedicated workstations on which 
+all their team and vision code must run. A single camera suspended over the 
+field will be connected to one of the workstations to allow for image 
+processing. Each team will be provided with a single wireless transmitter and 
+two receivers to send commands from the workstation to your robots. Different 
+types of RF hardware may not be used; each team must make sure they are 
+operating on a unique frequency. During competition, only the two teams playing 
+should have their transmitters turned on. Jamming of the other team's RF 
+communications is prohibited.</P>
+<P>Each team is responsible for the physical design and construction of their 
+robots. A MagiccBoard for each robot will be provided to each team to provide 
+control on board each robot. In addition, each team will be supplied with 6 
+high-quality motors and 3 batteries. Other components may be selected from 
+previously used equipment in 416 CB. (With recent expenditures to make the 
+necessary MagiccBoards and to buy new smaller motors, we have little money left 
+to reimburse you for any major purchases. In the interest of keeping the 
+competition fair, please use the equipment provided whenever possible.) Low cost 
+items such as wheels, wiring, connectors, and the vehicle chassis should be paid 
+for by each team. Note that all hardware additions made by teams are turned over 
+at the end of the semester for future Robot Soccer competitions.</P>
+<P>Before a game, each of the two teams has a color assigned, namely yellow or 
+blue. Each team must be able to use either yellow or blue markers. Circular 
+markers of the assigned color must be mounted on top of the robots. The center 
+of the marker must be located in the visual center of the robot when viewed from 
+above. The markers must have a diameter of 40 mm. Robots may use black and white 
+coloring on the top without restriction. Robots may also use green, pink and 
+cyan markers. Only the colors provided by the TAs may be used in the 
+construction of the tops. With the exception of the top of each robot, 
+everything that is visible to the overhead camera (including the robot sides 
+when on the edge of the field) must be black – i.e. no shiney metal.</P>
+<P>Each robot must fit inside a 180 mm diameter cylinder; the maximum height is 
+150 mm, including the colored markers on the top. At no time during competition 
+can anything (e.g., a kicker, dribbler, or other moveable part) extend beyond 
+this 180 mm limit.</P>
+<H3>Competition format</H3>
+<P>The final tournament will consist of a sequence of head-to-head matches or 
+games. Each match will consist of two three-minute halves; the clock for each 
+half will be stopped by the referee only for timeouts and in the event of 
+something outside the normal scope of play (at the sole discretion of the 
+referee). The clock will continue to run when goals are scored and when fouls 
+are called. The halftime period separating the two periods of play will not 
+exceed two minutes. Once a game is over, the teams playing the next match will 
+have up to three minutes to prepare before their game begins.</P>
+<P>Each team will have two timeouts per match, each lasting just 30 seconds. 
+Timeouts can be called only when play is stopped after a goal, after a foul, or 
+if the ball leaves the playing surface (assumed to be rare). During a timeout, 
+robots may be touched and lifted by team members. Except during a timeout, 
+robots may not be touched once play begins. Each team is limited to two members 
+in the immediate vicinity of the playing field (even when play is stopped) to 
+avoid congestion. (During play, everyone should move back to keep from 
+obstructing the view of others.)</P>
+<P>Just before each match begins, a coin toss decides which team is the home 
+team. The home team then decides which end of the field they wish to defend, the 
+color of marker that identifies their robots, and whether or not to kickoff at 
+the start of the game. Before play begins, teams are responsible for ensuring 
+that they are using different transmission frequencies. Unless both teams agree 
+otherwise, teams will change directions and colors for the second half and the 
+team that did not kickoff to start the game will kickoff to start the second 
+half. </P>
+<P>At the start of each half, the ball will be placed in the middle of the 
+center circle. All robots must be on their own side of the field. Robots on 
+defense can be no closer to 300 mm from the ball until it is touched by an 
+offensive robots; robots on offense can be placed anywhere on their side of the 
+field. Once placed, robots are free to move, but they must stay on their own 
+side and cannot contact the ball until the referee signals the start of play. In 
+an effort to make the competition format spectator-friendly, we need to stick to 
+strict timing constraints. (The exact details will be worked out as needed.) 
+Failure to place a robot in the allotted time may require your team to begin 
+play without that robot on the field. Robots taken off the field for any reason 
+may be placed on the field and resume play only during a stoppage of play: after 
+a goal or after a foul has been called.</P>
+<P>Once play begins, it continues (under normal circumstances) until a goal is 
+scored, a foul is called, or time expires. To handle notification of goals and 
+fouls, we will implement a simplified version of the Robocup Referee Box that 
+will send your team code a message with the details. When you are notified that 
+a goal has been scored, your robots must move (autonomously) back to your side 
+of the field to prepare for the kickoff. (You'll know if you will be on offense 
+or defense.) When you are notified that a foul has occurred, your robots must 
+move themselves into position after the ball is placed by the referee. Failure 
+to do so in a timely fashion may require the removal of the offending robot from 
+the playing field, at the direction of the referee. A player removed in this way 
+cannot reenter the field until there is a stoppage in play (typically a goal or 
+a foul). Make sure your team responds appropriately to all referee box 
+directives and does not contact the ball when positioning for kickoffs or 
+penalty kicks.</P>
+<P>In case of a goal, the referee will place the ball in the center of the field 
+by hand; in case of a foul, the referee will place the ball for a penalty kick 
+(wherever he deems appropriate). In either case, once the ball is placed, 
+defensive robots must immediately move at least 300 mm from the ball. The clock 
+continues to run, but play will not resume until signaled by the referee 
+(through the referee box). On penalty kicks, offensive robots can move to any 
+desired location. (No offsides penalties will be called in our competition at 
+any point.) For simplicity, all penalty kicks will be considered <EM>direct 
+kicks</EM>, allowing the robot taking the kick to score directly without another 
+robot touching the ball. All referee calls concerning goals and fouls are final. 
+Fouls will be called more aggressively in the goal box, but we will not be 
+playing with a designated goalie on each team; Robocup rules pertaining to 
+goalies will not be enforced.</P>
+<P>With the walls on our soccer field, the ball should go out of play only 
+rarely, so we will not implement Robocup's throw-ins, corner kicks, and goal 
+kicks. Play will be stopped if the ball ever leaves the playing surface, in 
+which case it will be placed back on the field in a neutral position (most 
+likely near the center). If one team repeatedly causes the ball to leave the 
+field of play (say because its robots have powerful kickers and poorly tuned 
+control), fouls may be called at the sole discretion of the referee, including 
+an arbitrary placement of the ball to resume play. Play may also be stopped 
+briefly if the ball becomes stuck on the playing field in a way that neither 
+team can make progress. The ball will be placed by the referee in a neutral 
+location should this occur.</P>
+<P>In matches ending in a tie after regulation where a winner must advance, the 
+teams will play sudden-death overtime periods of 3 minutes until a goal is 
+scored. Between each overtime period, there will be a short 90-second break.</P>
+<H3>Playing rules</H3>Robots are not allowed to "carry" or "hold" the ball. The 
+ball cannot be controlled in such a way that opponents cannot take it away. 
+Nothing can be used to physically attach the ball to the robot (e.g., adhesive, 
+suction). Concave openings in the perimeter of robots that allow unfair control 
+of the ball are prohibited. According to Robocup rules, 80% of the ball must be 
+visible from directly above and outside the convex hull of the robot; from any 
+perspective (e.g., side view) 80% of the ball must be visible. 
+<P>There will be no designated goalies in our competition, and Robocup rules 
+pertaining to the goalie will not apply. (In a two-on-two competition it makes 
+little sense to have a designated goalie.) We will not enforce the rules of 
+unsporting behavior for robots on the field but not capable of moving.
+<P>Soccer is a contact sport, and physical contact with other players is 
+unavoidable, but we'd like to see a finesse game that focuses on individual 
+skills and well-executed teamwork. Like Robocup, we emphasize the <EM>no-contact 
+principle</EM> and encourage you to pay particular attention to obstacle 
+avoidance algorithms that will allow you to avoid collisions with other robots. 
+In particular, aggressive or uncontrolled movement that could result in damage 
+to any robot or the playing field is unacceptable and inconsistent with the 
+spirit of our competition. 
+<P>Fouls will be called when "substantial contact" with an opponent occurs that 
+is clearly the result of one robot's actions aggressive play or uncontrolled 
+motion. Robots repeatedly committing such fouls may be carded and ejected. If 
+aggressive or uncontrolled play causes damage to an opposing robot, the fouling 
+team may be penalized by loss of match or (depending on the severity of the 
+damage) disqualification from the entire tournament. Penalties and 
+disqualifications will be accessed at the sole discretion of the referee.
+<P>
+<H3>Referee Box Commands</H3>
+<P>Referee Commands will be issued to teams over a TCP/IP network connection. 
+The score, the time remaining in the half, which half is being played, and an 
+integer indicating the state of the referee will be sent every second. The 
+following commands can be 
+sent:<BR><BR><CODE>Halt<BR>TimeoutHomeTeam<BR>TimeoutAwayTeam<BR>FoulHomeTeam<BR>FoulAwayTeam<BR>GoalHomeTeam<BR>GoalAwayTeam<BR>KickoffHomeTeam<BR>KickoffAwayTeam<BR>Play</CODE></P>
+<H4>Halt</H4>
+<P>Whenever the <CODE>Halt</CODE> command is issued, the robots on both teams 
+are required to cease movements. This command will always be issued before any 
+of the other commands (with the exception of the <CODE>Play</CODE> command).</P>
+<H4>TimeoutHomeTeam, TimeoutAwayTeam</H4>
+<P>Timeouts can only be called after the ball is dead – i.e. when a foul is 
+called or a goal is scored. This command will be issued after the 
+<CODE>Halt</CODE> command. It will be followed by the appropriate goal or foul 
+command depending on what stopped the match in the first place. 
+<CODE>TimeoutHomeTeam</CODE> means that the home team has called a timeout. A 
+timeout will stop the clock.</P>
+<H4>FoulHomeTeam, FoulAwayTeam</H4>
+<P><CODE>Foul</CODE> commands will be issued when the referee has determined 
+that a foul has been committed. <CODE>FoulHomeTeam</CODE> means that the home 
+team has committed the foul. The clock will not stop for fouls. A 
+<CODE>Halt</CODE> command will be issued before the <CODE>Foul</CODE> command is 
+sent. The <CODE>Foul</CODE> commands will not be sent until after the referee 
+has placed the ball in the place to be kicked from. When the <CODE>Foul</CODE> 
+command is sent, the robots should set up for a foul kick. The <CODE>Foul</CODE> 
+commands will be followed by the <CODE>Play</CODE> command, at which time, the 
+kicking team should kick the placed ball.</P>
+<H4>GoalHomeTeam, GoalAwayTeam</H4>
+<P>When a goal is scored, the <CODE>Halt</CODE> command will be sent to both 
+teams. After the referee has placed the ball back in the center of the field, 
+the appropriate <CODE>Goal</CODE> command will be sent. 
+<CODE>GoalHomeTeam</CODE> means that the home team has scored a goal. The 
+<CODE>Goal</CODE> commands should instruct the robots to set up for a kickoff 
+where the team that has just been scored against is kicking off. The 
+<CODE>Goal</CODE> commands will be followed by the <CODE>Play</CODE> command, 
+indicating that the match should resume. The clock will not stop for a goal.</P>
+<H4>KickoffHomeTeam, KickoffAwayTeam</H4>
+<P>These commands will be issued at the start of the halves. 
+<CODE>KickoffHomeTeam</CODE> indicates that the home team is to kickoff. The 
+<CODE>Kickoff</CODE> command will be followed by the <CODE>Play</CODE> command, 
+at which time the kickoff should occur.</P>
+<H4>Play</H4>
+<P>The only time the robots should be playing soccer is when the 
+<CODE>Play</CODE> command is being sent. All other commands are setup commands 
+and will be followed by this command.</P></BODY></HTML>

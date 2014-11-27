@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test_Buggy - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Test_Buggy_Release\Int/resources.res" /i "\Documents and Settings\Adal\Mis documentos\Robots\Robocup\SRC\RCP Simulator\ode-051009\drawstuff\src" /d "NDEBUG" "C:\Documents and Settings\Adal\Mis documentos\Robots\Robocup\SRC\RCP Simulator\ode-051009\drawstuff\src\resources.rc"" 
+Creating temporary file "C:\DOCUME~1\Adal\CONFIG~1\Temp\RSPD7.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "..\..\include" /I "..\..\Include" /I "..\..\OPCODE" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Test_Buggy_Release\Int/Test_Buggy.pch" /YX /Fo"Test_Buggy_Release\Int/" /Fd"Test_Buggy_Release\Int/" /FD /c 
+"C:\Documents and Settings\Adal\Mis documentos\Robots\Robocup\SRC\RCP Simulator\ode-051009\ode\src\msocket.cpp"
+"C:\Documents and Settings\Adal\Mis documentos\Robots\Robocup\SRC\RCP Simulator\ode-051009\ode\test\Socklib.cpp"
+"C:\Documents and Settings\Adal\Mis documentos\Robots\Robocup\SRC\RCP Simulator\ode-051009\ode\test\test_buggy.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Adal\CONFIG~1\Temp\RSPD7.tmp" 
+Creating temporary file "C:\DOCUME~1\Adal\CONFIG~1\Temp\RSPD8.tmp" with contents
+[
+ode.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib WS2_32.LIB pthreadVC2.lib /nologo /subsystem:windows /incremental:no /pdb:"Test_Buggy_Release/MultiSim.pdb" /machine:I386 /out:"Test_Buggy_Debug/MultiSim.exe" /libpath:"..\..\lib" 
+".\Test_Buggy_Release\Int\msocket.obj"
+".\Test_Buggy_Release\Int\Socklib.obj"
+".\Test_Buggy_Release\Int\test_buggy.obj"
+".\Test_Buggy_Release\Int\resources.res"
+"\Documents and Settings\Adal\Mis documentos\Robots\Robocup\SRC\lib\DrawStuff.lib"
+"\Documents and Settings\Adal\Mis documentos\Robots\Robocup\SRC\RCP Simulator\ode-051009\lib\ode.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Adal\CONFIG~1\Temp\RSPD8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+msocket.cpp
+Socklib.cpp
+test_buggy.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\Adal\CONFIG~1\Temp\RSPDA.bat" with contents
+[
+@echo off
+copy      .\Test_Buggy_Debug\MultiSim.exe      ..\..\ode\test\
+]
+Creating command line "C:\DOCUME~1\Adal\CONFIG~1\Temp\RSPDA.bat"
+- Copying .exe to test dir -
+        1 archivos copiados.
+
+
+
+<h3>Results</h3>
+MultiSim.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

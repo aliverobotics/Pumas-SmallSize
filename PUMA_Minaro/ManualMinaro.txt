@@ -1,0 +1,63 @@
+Manual del Programa para la Manipulación Inalámbrica de un Robot (MInaRo)
+
+MInaRo es una aplicación la cual permite realizar pruebas de conectividad, así como la manipulación de un robot móvil desarrollado en el Laboratorio de Biorobótica de la Facultad de Ingeniería de la U.N.A.M en México .
+El programa para  manipular el robot requiere de un control de juegos de 1 ó 2 ejes, conocidos popularmente como joystick y gamepad. También es necesario contar con una comunicación inalámbrica del tipo WiFi B/G para su completo funcionamiento.
+La conexión entre la computadora que ejecuta este programa y el robot es vía internet por medio de sockets del tipo UDP. Por lo tanto, es necesario que el robot sea totalmente visible en la red a la cual está conectada la computadora que ejecuta este programa. Es decir, deben de encontrarse en la misma subred o el robot debe de tener una IP real, la cual sea totalmente visible al cliente local.
+
+
+Interfaz
+[Image 1]
+1)Menú Principal
+2)Indicadores de Velocidad
+3)Indicador de Botones
+
+Descripción del Menú principal
+Desde el menú principal se pueden realizar diversas acciones para la configuración del programa. A continuación se muestra una descripción de los elementos que éste alberga.
+
+[Image 2]
+
+Session
+	Quit - Termina la conexión establecida con el robot y cierra el programa.
+	
+Connection
+	Settings - En esta ventana se indica la dirección IP del robot con el cual se quiere conectar. También se determina mediante que puerto se desean enviar datos al robot y el puerto por el cual se reciben datos del robot.
+	Connect/Disconnect - Dar click en esta opción si se desea conectar o desconectar la comunicación con el robot remoto.
+
+Device
+	Calibrate - Esta opción sirve para elegir y calibrar el dispositivo con el cual se desea controlar el robot.
+	
+About - Muestra información acerca del programa
+
+
+Instrucciones de Uso
+
+El uso de este programa es muy sencillo, soló tiene que llevar a cabo en orden los siguientes pasos:
+1. Conectar el dispositivo de juegos con el cual se desea controlar el robot.
+2. Ejecutar el programa.
+3. Ir al menú Connection y elegir la opción Settings.
+4. En la ventana de diálogo introducir la IP con la que cuenta el robot, el puerto de envío y el puerto de recepción datos desde el robot. Finalmente dar click en el botón Conectar.
+[Image 3.1]
+5. Ir al menú Device y eligir la opción Calibrate.
+6. Elegir el dispositivo que se quiera utilizar para la manipulación del robot.
+[Image 3.2]
+7. Indicar si el dispositivo es de 1 eje o 2 ejes.
+[Image 3.3]
+8. Seguir las indicaciones de calibración que se muestran en pantalla.
+9. El programa esta listo para la manipulación del robot.
+
+
+Preguntas Frecuentes
+1. Ya coloqué correctamente la IP del robot y los puertos mediante los que se comunica. También calibré de manera correcta el control pero el robot no recibe datos.
+	Verificar que tanto el robot como el la computadora que alberga este programa se encuentren dentro de la misma subred o que el robot sea visible. Para verificar si el robot es visible a esta computadora, realizar un PING al robot para comprobar que existe visibilidad entre la computadora y el robot.
+1.1 Si existe comunicación entre el robot y la computadora, pero el robot sigue sin moverse.
+	Verificar que tanto el ADP como la tarjeta principal del robot se encuentren encendidos.
+	1.1.1 Tanto el ADP como la tarjeta principal del robot están encendidos, pero el robot sigue sin moverse.
+		Verificar que la batería que posee el robot tenga la carga suficiente para poder ejecutar comandos de movimiento.
+1.2	Realicé un PING entre la computadora y el robot, son visibles entre sí, pero el robot no recibe comandos.
+	Verificar que ningún programa de seguridad de redes(firewalls) se encuentre bloqueando activamente los puertos por los cuales se comunica este programa.
+	
+	
+Contacto
+Si tienes alguna duda o sugerencia acerca de este programa o manual, contáctanos en:
+
+	grekogecko@yahoo.com

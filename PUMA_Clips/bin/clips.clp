@@ -1,0 +1,7 @@
+(load clips_deftemplates.clp)
+(load clips_initial_state.clp)
+(load clips_rules.clp)
+(watch rules)
+(watch facts)
+(reset)
+(run)

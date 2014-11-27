@@ -1,0 +1,8 @@
+bin\Debug\UDP.ico
+bin\Debug\UDPClient.exe
+bin\Debug\UDPClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Gecko.Form1.resources
+obj\Debug\GECKO.csproj.GenerateResource.Cache
+obj\Debug\UDPClient.exe
+obj\Debug\UDPClient.pdb
